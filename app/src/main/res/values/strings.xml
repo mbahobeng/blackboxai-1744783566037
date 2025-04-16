@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoClick</string>
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">AutoClick service for automated touch input</string>
+    
+    <!-- Main Activity -->
+    <string name="add_click_point">Add Click Point</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="save_configuration">Save Configuration</string>
+    <string name="load_configuration">Load Configuration</string>
+    <string name="configuration_name">Configuration Name</string>
+    
+    <!-- Dialog Messages -->
+    <string name="dialog_button_size">Button Size</string>
+    <string name="dialog_delay">Delay (ms)</string>
+    <string name="dialog_start_time">Start Time</string>
+    <string name="dialog_end_time">End Time</string>
+    
+    <!-- Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_import">Import</string>
+    <string name="action_export">Export</string>
+    
+    <!-- Error Messages -->
+    <string name="error_invalid_size">Invalid button size</string>
+    <string name="error_invalid_delay">Invalid delay value</string>
+    <string name="error_invalid_time">Invalid time settings</string>
+    <string name="error_accessibility_service">Please enable accessibility service</string>
+    <string name="error_overlay_permission">Please grant overlay permission</string>
+    <string name="error_empty_name">Configuration name cannot be empty</string>
+    <string name="error_duplicate_name">Configuration name already exists</string>
+    <string name="error_import_failed">Failed to import configuration</string>
+    <string name="error_export_failed">Failed to export configuration</string>
+    <string name="error_no_configuration_selected">Please select a configuration to load</string>
+    
+    <!-- Success Messages -->
+    <string name="success_configuration_saved">Configuration saved successfully</string>
+    <string name="success_configuration_loaded">Configuration loaded successfully</string>
+    <string name="success_config_exported">Configuration exported successfully</string>
+    <string name="success_config_imported">Configuration imported successfully</string>
+    
+    <!-- Error Messages -->
+    <string name="error_invalid_config">Invalid configuration format</string>
+    <string name="error_invalid_configuration">Invalid configuration: Please check all values are valid</string>
+    
+    <!-- Configuration Dialog -->
+    <string name="hint_configuration_name">Configuration Name</string>
+    <string name="dialog_title_new_configuration">New Configuration</string>
+    <string name="dialog_title_edit_configuration">Edit Configuration</string>
+    <string name="configuration_points_count">%d click points</string>
+    <string name="no_configurations">No configurations available.\nCreate a new configuration or import one.</string>
+    
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="settings_global_delay">Global Delay</string>
+    <string name="settings_repeat_count">Repeat Count (0 for infinite)</string>
+    
+    <!-- Button Actions -->
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_move_up">Move Up</string>
+    <string name="action_move_down">Move Down</string>
+    
+    <!-- Notifications -->
+    <string name="notification_service_running">AutoClick service is running</string>
+    <string name="notification_service_stopped">AutoClick service stopped</string>
+    
+    <!-- Tooltips -->
+    <string name="tooltip_add_point">Add new click point</string>
+    <string name="tooltip_edit_point">Edit click point settings</string>
+    <string name="tooltip_delete_point">Delete click point</string>
+    <string name="tooltip_start_service">Start auto-click service</string>
+    <string name="tooltip_stop_service">Stop auto-click service</string>
+</resources>
