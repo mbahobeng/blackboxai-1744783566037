@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    
+    <!-- Base Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FFF5F5F5</color>
+    
+    <!-- Custom Colors -->
+    <color name="click_indicator">#80FF4081</color>
+    <color name="click_indicator_border">#FF4081</color>
+    <color name="error_red">#FFB00020</color>
+    <color name="success_green">#FF00C853</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#99000000</color>
+    <color name="text_disabled">#61000000</color>
+    
+    <!-- Divider & Stroke Colors -->
+    <color name="divider">#1F000000</color>
+    <color name="card_stroke">#1F000000</color>
+    
+    <!-- Overlay Colors -->
+    <color name="scrim">#52000000</color>
+    <color name="overlay_light">#0F000000</color>
+</resources>
