@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for night mode -->
+    <style name="Theme.AutoClick" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Custom attributes -->
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Text colors for dark theme -->
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        
+        <!-- Text appearances -->
+        <item name="textAppearanceHeadline6">@style/TextAppearance.AutoClick.Dark.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.AutoClick.Dark.Subtitle1</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.AutoClick.Dark.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.AutoClick.Dark.Body2</item>
+    </style>
+
+    <!-- Text appearances for dark theme -->
+    <style name="TextAppearance.AutoClick.Dark.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+    </style>
+
+    <style name="TextAppearance.AutoClick.Dark.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+    </style>
+
+    <style name="TextAppearance.AutoClick.Dark.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary_dark</item>
+    </style>
+
+    <style name="TextAppearance.AutoClick.Dark.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_secondary_dark</item>
+    </style>
+
+    <!-- Dialog theme for dark mode -->
+    <style name="ThemeOverlay.AutoClick.MaterialDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.AutoClick.Dark.Title.Text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.AutoClick.Dark.Button</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.AutoClick.Dark.Button.TextButton</item>
+        <item name="android:background">@color/surface_dark</item>
+    </style>
+
+    <style name="MaterialAlertDialog.AutoClick.Dark.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textAppearance">@style/TextAppearance.AutoClick.Dark.Headline6</item>
+    </style>
+
+    <!-- Button styles for dark theme -->
+    <style name="Widget.AutoClick.Dark.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.AutoClick.Dark.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="rippleColor">@color/ripple_dark</item>
+    </style>
+</resources>
