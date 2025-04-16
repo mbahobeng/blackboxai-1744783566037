@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design Colors for Dark Theme -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    
+    <!-- Base Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_dark">#FF121212</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    
+    <!-- Custom Colors -->
+    <color name="click_indicator">#80BB86FC</color>
+    <color name="click_indicator_border">#FFBB86FC</color>
+    <color name="error_red">#FFCF6679</color>
+    <color name="success_green">#FF00E676</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_dark">#DEFFFFFF</color>
+    <color name="text_secondary_dark">#99FFFFFF</color>
+    <color name="text_disabled_dark">#61FFFFFF</color>
+    
+    <!-- Divider & Stroke Colors -->
+    <color name="divider">#1FFFFFFF</color>
+    <color name="card_stroke">#1FFFFFFF</color>
+    
+    <!-- Overlay Colors -->
+    <color name="scrim">#52000000</color>
+    <color name="overlay_light">#0FFFFFFF</color>
+    <color name="ripple_dark">#33FFFFFF</color>
+    
+    <!-- Component Colors -->
+    <color name="card_background">#FF2D2D2D</color>
+    <color name="dialog_background">#FF2D2D2D</color>
+    <color name="button_disabled">#61FFFFFF</color>
+    <color name="input_background">#FF2D2D2D</color>
+    <color name="input_stroke">#1FFFFFFF</color>
+    <color name="input_stroke_focused">#FFBB86FC</color>
+</resources>
